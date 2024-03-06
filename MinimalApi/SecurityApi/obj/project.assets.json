@@ -2271,11 +2271,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\estudo C#\\MinimalApi\\SecurityApi\\UserApi.csproj",
+      "projectUniqueName": "E:\\estudo C#\\MinimalApiRepository\\MinimalApi-Study\\MinimalApi\\SecurityApi\\UserApi.csproj",
       "projectName": "UserApi",
-      "projectPath": "E:\\estudo C#\\MinimalApi\\SecurityApi\\UserApi.csproj",
+      "projectPath": "E:\\estudo C#\\MinimalApiRepository\\MinimalApi-Study\\MinimalApi\\SecurityApi\\UserApi.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "E:\\estudo C#\\MinimalApi\\SecurityApi\\obj\\",
+      "outputPath": "E:\\estudo C#\\MinimalApiRepository\\MinimalApi-Study\\MinimalApi\\SecurityApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\estudo C#\\MinimalApi\\MinimalApi\\MinimalApi.csproj": {}
+    "E:\\estudo C#\\MinimalApiRepository\\MinimalApi-Study\\MinimalApi\\MinimalApi\\MinimalApi.csproj": {}
   },
   "projects": {
-    "E:\\estudo C#\\MinimalApi\\MinimalApi\\MinimalApi.csproj": {
+    "E:\\estudo C#\\MinimalApiRepository\\MinimalApi-Study\\MinimalApi\\MinimalApi\\MinimalApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\estudo C#\\MinimalApi\\MinimalApi\\MinimalApi.csproj",
+        "projectUniqueName": "E:\\estudo C#\\MinimalApiRepository\\MinimalApi-Study\\MinimalApi\\MinimalApi\\MinimalApi.csproj",
         "projectName": "MinimalApi",
-        "projectPath": "E:\\estudo C#\\MinimalApi\\MinimalApi\\MinimalApi.csproj",
+        "projectPath": "E:\\estudo C#\\MinimalApiRepository\\MinimalApi-Study\\MinimalApi\\MinimalApi\\MinimalApi.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "E:\\estudo C#\\MinimalApi\\MinimalApi\\obj\\",
+        "outputPath": "E:\\estudo C#\\MinimalApiRepository\\MinimalApi-Study\\MinimalApi\\MinimalApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "E:\\estudo C#\\MinimalApi\\WebHost.Costumization\\WebHost.Costumization.csproj": {
-                "projectPath": "E:\\estudo C#\\MinimalApi\\WebHost.Costumization\\WebHost.Costumization.csproj"
+              "E:\\estudo C#\\MinimalApiRepository\\MinimalApi-Study\\MinimalApi\\WebHost.Costumization\\WebHost.Costumization.csproj": {
+                "projectPath": "E:\\estudo C#\\MinimalApiRepository\\MinimalApi-Study\\MinimalApi\\WebHost.Costumization\\WebHost.Costumization.csproj"
               }
             }
           }
@@ -81,14 +81,14 @@
         }
       }
     },
-    "E:\\estudo C#\\MinimalApi\\WebHost.Costumization\\WebHost.Costumization.csproj": {
+    "E:\\estudo C#\\MinimalApiRepository\\MinimalApi-Study\\MinimalApi\\WebHost.Costumization\\WebHost.Costumization.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\estudo C#\\MinimalApi\\WebHost.Costumization\\WebHost.Costumization.csproj",
+        "projectUniqueName": "E:\\estudo C#\\MinimalApiRepository\\MinimalApi-Study\\MinimalApi\\WebHost.Costumization\\WebHost.Costumization.csproj",
         "projectName": "WebHost.Costumization",
-        "projectPath": "E:\\estudo C#\\MinimalApi\\WebHost.Costumization\\WebHost.Costumization.csproj",
+        "projectPath": "E:\\estudo C#\\MinimalApiRepository\\MinimalApi-Study\\MinimalApi\\WebHost.Costumization\\WebHost.Costumization.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "E:\\estudo C#\\MinimalApi\\WebHost.Costumization\\obj\\",
+        "outputPath": "E:\\estudo C#\\MinimalApiRepository\\MinimalApi-Study\\MinimalApi\\WebHost.Costumization\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

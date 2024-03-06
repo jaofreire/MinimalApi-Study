@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DLtahn0uj1RN+kj0u30zNGff84V8HWnbySlA6xCUToXoRLN6Asa3t+4G2c2Hr4LkHY78b5Xm/KoCgkQjfNSohA==",
+  "dgSpecHash": "jpuvsko6p15Yb+7s77DIHzOpROb+NSgAcbSlcSkTueUqhIKiZUvTcapQ/i/iIcb1RgKcijbi7LFdgtpIZZradw==",
   "success": true,
-  "projectFilePath": "E:\\estudo C#\\MinimalApi\\SecurityApi\\UserApi.csproj",
+  "projectFilePath": "E:\\estudo C#\\MinimalApiRepository\\MinimalApi-Study\\MinimalApi\\SecurityApi\\UserApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.16\\microsoft.aspnetcore.authentication.jwtbearer.7.0.16.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.16\\microsoft.aspnetcore.openapi.7.0.16.nupkg.sha512",

@@ -32,17 +32,24 @@ app.MapPost("/register", async (User newUser, IDistributedCache redis) =>
 
 });
 
-app.MapPost("/connect/token",  (string userName, IConfiguration configuration, IDistributedCache redis) =>
+app.MapPost("/connect/token", async (string userName, IConfiguration configuration, IDistributedCache redis) =>
 {
-    var data = redis.GetString(userName);
+    
+    var data =  await redis.GetStringAsync(userName);
 
     if (string.IsNullOrEmpty(data)) throw new Exception("User Not Found");
 
     var UserConnect = JsonSerializer.Deserialize<User>(data);
 
-    if(UserConnect.Role == "CLIENT")
+    switch (UserConnect.Role)
     {
-        return Token.GenerateToken(configuration, UserConnect.Role);
+        case "ADM":
+            return Token.GenerateToken(configuration, UserConnect.Role);
+
+
+        case "CLIENT":
+            return Token.GenerateToken(configuration, UserConnect.Role);
+
     }
 
     return false;

@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "6UbnR9QbiL8llUCUm5NJ8WxE5XwX/wOvFOKCs4AQsdQ=",
+  "Hash": "jMtaKQaiGSESHSeCFdM5wTigjbG1AFnkcJYM0ZCkYzI=",
   "Source": "ProductsApi",
   "BasePath": "_content/ProductsApi",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "E:\\estudo C#\\MinimalApi\\DataApi\\DataApi.csproj",
+      "Identity": "E:\\estudo C#\\MinimalApiRepository\\MinimalApi-Study\\MinimalApi\\DataApi\\DataApi.csproj",
       "Version": 2,
       "Source": "DataApi",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",

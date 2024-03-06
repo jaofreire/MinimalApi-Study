@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hND0MOeUp91y19pU/AUtwRDgY5JI/gqjntuz9IkweBHtTZ2GPIrFmPHEBLgv8/dM/2B6U0dMzpiYPXNsRBF/1Q==",
+  "dgSpecHash": "aKdkmGg0JwBsznDUkoy0mfAzpAn5d4oibVL19ft8TqqJm5IzUfkSI+e7+30zYDocIabVcveEvVM1ZhOB08lQvw==",
   "success": true,
-  "projectFilePath": "E:\\estudo C#\\MinimalApi\\ModelsLibrary\\ModelsLibrary.csproj",
+  "projectFilePath": "E:\\estudo C#\\MinimalApiRepository\\MinimalApi-Study\\MinimalApi\\ModelsLibrary\\ModelsLibrary.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

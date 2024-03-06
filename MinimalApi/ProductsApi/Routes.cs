@@ -9,9 +9,9 @@ namespace ProductsApi
     {
         public static void Map(WebApplication app)
         {
-            app.MapGroup("/products").MapGroupPublic().WithTags("productsGets");
+            app.MapGroup("/products/public").MapGroupPublic().WithTags("productsPublic");
 
-            app.MapGroup("/products").MapGroupPostPrivate().WithTags("productsPosts");
+            app.MapGroup("/products/private").MapGroupPostPrivate().WithTags("productsPrivate").RequireAuthorization("ADM");
         }
     }
 }

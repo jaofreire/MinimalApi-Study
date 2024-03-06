@@ -81,6 +81,28 @@ namespace ProductsApi
                 return Results.Ok(productsList);
             });
 
+            group.MapDelete("/remove/{id:int}", async (int id, ApiDbContext db) =>
+            {
+                var product = await db.Products.FindAsync(id) ??
+                 throw new Exception("Product not found");
+
+                db.Products.Remove(product);
+                await db.SaveChangesAsync();
+
+                return true;
+            });
+
+            group.MapDelete("/removeByName/{name}", async (string name, ApiDbContext db) =>
+            {
+                var product = await db.Products.FirstOrDefaultAsync(x => x.Name == name) ??
+                 throw new Exception("Product not found");
+
+                db.Products.Remove(product);
+                await db.SaveChangesAsync();
+
+                return true;
+            });
+
             return group;
         }
     }

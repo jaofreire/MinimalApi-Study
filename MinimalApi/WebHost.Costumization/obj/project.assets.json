@@ -3127,11 +3127,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\estudo C#\\MinimalApi\\WebHost.Costumization\\WebHost.Costumization.csproj",
+      "projectUniqueName": "E:\\estudo C#\\MinimalApiRepository\\MinimalApi-Study\\MinimalApi\\WebHost.Costumization\\WebHost.Costumization.csproj",
       "projectName": "WebHost.Costumization",
-      "projectPath": "E:\\estudo C#\\MinimalApi\\WebHost.Costumization\\WebHost.Costumization.csproj",
+      "projectPath": "E:\\estudo C#\\MinimalApiRepository\\MinimalApi-Study\\MinimalApi\\WebHost.Costumization\\WebHost.Costumization.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "E:\\estudo C#\\MinimalApi\\WebHost.Costumization\\obj\\",
+      "outputPath": "E:\\estudo C#\\MinimalApiRepository\\MinimalApi-Study\\MinimalApi\\WebHost.Costumization\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\estudo C#\\MinimalApi\\ModelsLibrary\\ModelsLibrary.csproj": {}
+    "E:\\estudo C#\\MinimalApiRepository\\MinimalApi-Study\\MinimalApi\\ModelsLibrary\\ModelsLibrary.csproj": {}
   },
   "projects": {
-    "E:\\estudo C#\\MinimalApi\\ModelsLibrary\\ModelsLibrary.csproj": {
+    "E:\\estudo C#\\MinimalApiRepository\\MinimalApi-Study\\MinimalApi\\ModelsLibrary\\ModelsLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\estudo C#\\MinimalApi\\ModelsLibrary\\ModelsLibrary.csproj",
+        "projectUniqueName": "E:\\estudo C#\\MinimalApiRepository\\MinimalApi-Study\\MinimalApi\\ModelsLibrary\\ModelsLibrary.csproj",
         "projectName": "ModelsLibrary",
-        "projectPath": "E:\\estudo C#\\MinimalApi\\ModelsLibrary\\ModelsLibrary.csproj",
+        "projectPath": "E:\\estudo C#\\MinimalApiRepository\\MinimalApi-Study\\MinimalApi\\ModelsLibrary\\ModelsLibrary.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "E:\\estudo C#\\MinimalApi\\ModelsLibrary\\obj\\",
+        "outputPath": "E:\\estudo C#\\MinimalApiRepository\\MinimalApi-Study\\MinimalApi\\ModelsLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -3504,11 +3504,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\estudo C#\\MinimalApi\\DataApi\\DataApi.csproj",
+      "projectUniqueName": "E:\\estudo C#\\MinimalApiRepository\\MinimalApi-Study\\MinimalApi\\DataApi\\DataApi.csproj",
       "projectName": "DataApi",
-      "projectPath": "E:\\estudo C#\\MinimalApi\\DataApi\\DataApi.csproj",
+      "projectPath": "E:\\estudo C#\\MinimalApiRepository\\MinimalApi-Study\\MinimalApi\\DataApi\\DataApi.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "E:\\estudo C#\\MinimalApi\\DataApi\\obj\\",
+      "outputPath": "E:\\estudo C#\\MinimalApiRepository\\MinimalApi-Study\\MinimalApi\\DataApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3526,11 +3526,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "E:\\estudo C#\\MinimalApi\\ModelsLibrary\\ModelsLibrary.csproj": {
-              "projectPath": "E:\\estudo C#\\MinimalApi\\ModelsLibrary\\ModelsLibrary.csproj"
+            "E:\\estudo C#\\MinimalApiRepository\\MinimalApi-Study\\MinimalApi\\ModelsLibrary\\ModelsLibrary.csproj": {
+              "projectPath": "E:\\estudo C#\\MinimalApiRepository\\MinimalApi-Study\\MinimalApi\\ModelsLibrary\\ModelsLibrary.csproj"
             },
-            "E:\\estudo C#\\MinimalApi\\WebHost.Costumization\\WebHost.Costumization.csproj": {
-              "projectPath": "E:\\estudo C#\\MinimalApi\\WebHost.Costumization\\WebHost.Costumization.csproj"
+            "E:\\estudo C#\\MinimalApiRepository\\MinimalApi-Study\\MinimalApi\\WebHost.Costumization\\WebHost.Costumization.csproj": {
+              "projectPath": "E:\\estudo C#\\MinimalApiRepository\\MinimalApi-Study\\MinimalApi\\WebHost.Costumization\\WebHost.Costumization.csproj"
             }
           }
         }

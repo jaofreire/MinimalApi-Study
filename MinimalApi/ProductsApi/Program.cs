@@ -13,6 +13,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddServiceDb<ApiDbContext>(builder.Configuration);
 builder.Services.AddSwaggerGen();
+builder.Services.AddServiceSdk(builder.Configuration);
 
 builder.Services.AddTransient<IBlob, Blob>();
 builder.Services.AddScoped<IValidator<ProductModel>, ProductsValidator>();
@@ -28,6 +29,8 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 Routes.Map(app);
+
+app.UseServiceApplicationAuth();
 
 app.Run();
 

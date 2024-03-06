@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Iu5BouxMCLmc0nnmDc+MwdAn/44Y/L2SWbgILx+QN3hFr763ttDtLY3Fzb/uggWL9SU1804mp2SYnyHp3PkANQ==",
+  "dgSpecHash": "2QQWYHmBHglGXcVNeGpcFpf0GXA2B90t+LXCNQhCXoLRD9Izs85oFdUWVRPiGoWjhRN399c3YiDRHD8lqkxsxQ==",
   "success": true,
-  "projectFilePath": "E:\\estudo C#\\MinimalApi\\WebHost.Costumization\\WebHost.Costumization.csproj",
+  "projectFilePath": "E:\\estudo C#\\MinimalApiRepository\\MinimalApi-Study\\MinimalApi\\WebHost.Costumization\\WebHost.Costumization.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
