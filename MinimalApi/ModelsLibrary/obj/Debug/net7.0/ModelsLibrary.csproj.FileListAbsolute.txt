@@ -1,0 +1,11 @@
+E:\estudo C#\MinimalApi\ModelsLibrary\bin\Debug\net7.0\ModelsLibrary.deps.json
+E:\estudo C#\MinimalApi\ModelsLibrary\bin\Debug\net7.0\ModelsLibrary.dll
+E:\estudo C#\MinimalApi\ModelsLibrary\bin\Debug\net7.0\ModelsLibrary.pdb
+E:\estudo C#\MinimalApi\ModelsLibrary\obj\Debug\net7.0\ModelsLibrary.GeneratedMSBuildEditorConfig.editorconfig
+E:\estudo C#\MinimalApi\ModelsLibrary\obj\Debug\net7.0\ModelsLibrary.AssemblyInfoInputs.cache
+E:\estudo C#\MinimalApi\ModelsLibrary\obj\Debug\net7.0\ModelsLibrary.AssemblyInfo.cs
+E:\estudo C#\MinimalApi\ModelsLibrary\obj\Debug\net7.0\ModelsLibrary.csproj.CoreCompileInputs.cache
+E:\estudo C#\MinimalApi\ModelsLibrary\obj\Debug\net7.0\ModelsLibrary.dll
+E:\estudo C#\MinimalApi\ModelsLibrary\obj\Debug\net7.0\refint\ModelsLibrary.dll
+E:\estudo C#\MinimalApi\ModelsLibrary\obj\Debug\net7.0\ModelsLibrary.pdb
+E:\estudo C#\MinimalApi\ModelsLibrary\obj\Debug\net7.0\ref\ModelsLibrary.dll

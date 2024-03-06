@@ -1,0 +1,14 @@
+E:\estudo C#\MinimalApi\WebHost.Costumization\bin\Debug\net7.0\WebHost.Costumization.deps.json
+E:\estudo C#\MinimalApi\WebHost.Costumization\bin\Debug\net7.0\WebHost.Costumization.dll
+E:\estudo C#\MinimalApi\WebHost.Costumization\bin\Debug\net7.0\WebHost.Costumization.pdb
+E:\estudo C#\MinimalApi\WebHost.Costumization\obj\Debug\net7.0\WebHost.Costumization.csproj.AssemblyReference.cache
+E:\estudo C#\MinimalApi\WebHost.Costumization\obj\Debug\net7.0\WebHost.Costumization.GeneratedMSBuildEditorConfig.editorconfig
+E:\estudo C#\MinimalApi\WebHost.Costumization\obj\Debug\net7.0\WebHost.Costumization.AssemblyInfoInputs.cache
+E:\estudo C#\MinimalApi\WebHost.Costumization\obj\Debug\net7.0\WebHost.Costumization.AssemblyInfo.cs
+E:\estudo C#\MinimalApi\WebHost.Costumization\obj\Debug\net7.0\WebHost.Costumization.csproj.CoreCompileInputs.cache
+E:\estudo C#\MinimalApi\WebHost.Costumization\obj\Debug\net7.0\WebHost.Costumization.dll
+E:\estudo C#\MinimalApi\WebHost.Costumization\obj\Debug\net7.0\refint\WebHost.Costumization.dll
+E:\estudo C#\MinimalApi\WebHost.Costumization\obj\Debug\net7.0\WebHost.Costumization.pdb
+E:\estudo C#\MinimalApi\WebHost.Costumization\obj\Debug\net7.0\ref\WebHost.Costumization.dll
+E:\estudo C#\MinimalApi\WebHost.Costumization\bin\Debug\net7.0\WebHost.Costumization.runtimeconfig.json
+E:\estudo C#\MinimalApi\WebHost.Costumization\obj\Debug\net7.0\WebHost.Costumization.genruntimeconfig.cache
