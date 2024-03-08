@@ -1,6 +1,9 @@
 ﻿using FluentValidation;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.EntityFrameworkCore;
 using ModelsLibrary;
+using ProductsApi.Validations;
+using System.ComponentModel.DataAnnotations;
 using System.Diagnostics;
 
 namespace ProductsApi
@@ -42,7 +45,7 @@ namespace ProductsApi
             return group;
         }
 
-        public static RouteGroupBuilder MapGroupPostPrivate(this RouteGroupBuilder group)
+        public static RouteGroupBuilder MapGroupPrivate(this RouteGroupBuilder group)
         {
             group.MapPost("/photo", async (IFormFile file, IBlob blob) =>
             {
@@ -50,24 +53,11 @@ namespace ProductsApi
                 return new { url };
             });
 
-            group.MapPost("/register", async (ProductModel newProduct, ApiDbContext db, IValidator<ProductModel> validator) =>
-            {
-                var validation = await validator.ValidateAsync(newProduct);
-                if (!validation.IsValid) return Results.ValidationProblem(validation.ToDictionary());
-
-                await db.Products.AddAsync(newProduct);
-                await db.SaveChangesAsync();
-
-                return Results.Ok(newProduct);
-            });
+            group.MapPost("/register", RegisterNewProduct)
+               .AddEndpointFilter<ProductsValidation>();
 
             group.MapPost("/registerlist", async (List<ProductModel> productsList, ApiDbContext db, IValidator<ProductModel> validator) =>
             {
-                foreach (var product in productsList)
-                {
-                    var validation = await validator.ValidateAsync(product);
-                    if (!validation.IsValid) return Results.ValidationProblem(validation.ToDictionary());
-                }
 
                 var watchBulk = Stopwatch.StartNew();
                 await db.BulkInsertAsync(productsList);
@@ -79,7 +69,7 @@ namespace ProductsApi
                 Console.WriteLine($"\n Add Bulk : {elapsed} \n");
 
                 return Results.Ok(productsList);
-            });
+            }).AddEndpointFilter<ProductsListValidation>();
 
             group.MapDelete("/remove/{id:int}", async (int id, ApiDbContext db) =>
             {
@@ -104,6 +94,14 @@ namespace ProductsApi
             });
 
             return group;
+        }
+     
+        public static async Task<ProductModel> RegisterNewProduct(ProductModel newProduct, ApiDbContext db, IValidator<ProductModel> validator)
+        {
+            await db.Products.AddAsync(newProduct);
+            await db.SaveChangesAsync();
+
+            return newProduct;
         }
     }
 }

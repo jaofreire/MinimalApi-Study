@@ -30,6 +30,7 @@ public class ApiDbContext : DbContext
     public ApiDbContext(DbContextOptions options) : base(options) { }
 
     public DbSet<ProductModel> Products { get; set; }
+    public DbSet<OrderModel> Orders { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

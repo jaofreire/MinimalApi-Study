@@ -11,7 +11,7 @@ namespace ProductsApi
         {
             app.MapGroup("/products/public").MapGroupPublic().WithTags("productsPublic");
 
-            app.MapGroup("/products/private").MapGroupPostPrivate().WithTags("productsPrivate").RequireAuthorization("ADM");
+            app.MapGroup("/products/private").MapGroupPrivate().WithTags("productsPrivate").RequireAuthorization("ADM");
         }
     }
 }
