@@ -1,0 +1,36 @@
+{
+  "SwaggerEndPoints": [
+    {
+      "Key": "ProductsApi",
+      "Config": [
+        {
+          "Name": "Products",
+          "Version": "v1",
+          "Url": "https://localhost:7086/swagger/v1/swagger.json"
+        }
+      ]
+
+    },
+    {
+      "Key": "UserApi",
+      "Config": [
+        {
+          "Name": "User",
+          "Version": "v1",
+          "Url": "https://localhost:7009/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "CartApi",
+      "Config": [
+        {
+          "Name": "Cart",
+          "Version": "v1",
+          "Url": "https://localhost:7059/swagger/v1/swagger.json"
+        }
+      ]
+    }
+  ]
+
+}

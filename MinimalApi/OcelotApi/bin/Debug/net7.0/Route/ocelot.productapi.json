@@ -1,0 +1,57 @@
+{
+  "Routes": [
+    {
+      "UpstreamPathTemplate": "/gateway/products/public",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DownstreamPathTemplate": "/products/public",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7086
+
+        }
+      ],
+      "Swaggerkey": "ProductsApi"
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/products/public/{everything}",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DownstreamPathTemplate": "/products/public/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7086
+        }
+      ],
+      "Swaggerkey": "ProductsApi"
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/products/private/{everything}",
+      "UpstreamHttpMethod": [ "POST", "PUT", "DELETE", "PATCH" ],
+      "DownstreamPathTemplate": "/products/private/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7086
+        }
+      ],
+      "Swaggerkey": "ProductsApi"
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/products/private/",
+      "UpstreamHttpMethod": [ "POST", "PUT", "DELETE", "PATCH" ],
+      "DownstreamPathTemplate": "/products/private",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7086
+        }
+      ],
+      "Swaggerkey": "ProductsApi"
+    }
+  ]
+}
